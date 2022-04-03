@@ -23,7 +23,7 @@ Replace `${version}` with the current version!
 <details>
         <summary>Gradle KTS</summary>
 
-```kotlin
+```kt
 repositories {
     maven("https://jitpack.io")
 }
@@ -38,7 +38,7 @@ dependencies {
 <details>
         <summary>Gradle Groovy</summary>
 
-```
+```groovy
 repositories {
 	maven { url 'https://jitpack.io' }
 }
@@ -53,7 +53,7 @@ dependencies {
 <details>
         <summary>Maven</summary>
 
-```
+```xml
 <repositories>
     <repository>
         <id>jitpack.io</id>
@@ -86,7 +86,7 @@ dependencies {
 <details>
         <summary>Kotlin</summary>
 
-```kotlin
+```kt
 val whoIs = WhoIs("google.com")
 whoIs.doRequest().forEach(::println)
 ```
