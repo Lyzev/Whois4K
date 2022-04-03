@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "name": "WhoIs4K",
+      "languageLevel": 16
+    },
+    {
+      "name": "WhoIs4K.test",
+      "languageLevel": 16
+    },
+    {
+      "name": "WhoIs4K.main",
+      "languageLevel": 16
+    }
+  ]
+}

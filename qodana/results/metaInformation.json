@@ -1,0 +1,16 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/Lyzev/WhoIs4K",
+        "revisionId": "f8f4ed465c3f8e288ef8b1185cfa1dad72a99a5b",
+        "branch": "master"
+      }
+    },
+    "deviceId": "200820300000000-3e89-02fc-6c97-6bac54d9c617"
+  }
+}
