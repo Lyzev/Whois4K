@@ -1,6 +1,6 @@
 <h1 align="center">WhoIs4K</h1>
 
-<p align="center">A RSA Cipher implementation for Kotlin/Java.</p>
+<p align="center">A library for who is requests.</p>
 
 <div align="center">
     <a href="https://discord.gg/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
@@ -83,7 +83,23 @@ dependencies {
 
 ### Example
 
-Coming soon!
+<details>
+        <summary>Kotlin</summary>
+
+```kotlin
+val whoIs = WhoIs("google.com")
+whoIs.doRequest().forEach(::println)
+```
+</details>
+
+<details>
+        <summary>Java</summary>
+
+```java
+WhoIs whoIs = new WhoIs("google.com");
+whoIs.doRequest().forEach(System.out::println);
+```
+</details>
 
 ## Documentation
 
@@ -98,3 +114,9 @@ You can find the qodana report [here](https://lyzev.github.io/WhoIs4K/qodana).
 Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/WhoIs4K/issues)
 using the templates provided. Please provide as much information as you can to best help us understand your issue and
 give a better chance of it being resolved.
+
+## What is a WHOIS?
+WHOIS (pronounced as the phrase "who is") is a query and response protocol that is widely used for querying databases that store the registered users or assignees of an Internet resource, such as a domain name, an IP address block or an autonomous system, but is also used for a wider range of other information. The protocol stores and delivers database content in a human-readable format. The current iteration of the WHOIS protocol was drafted by the Internet Society, and is documented in RFC 3912.
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/WHOIS)  
+See [Wikipedia](https://en.wikipedia.org/wiki/WHOIS) for more information.

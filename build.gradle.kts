@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.code:gson:${project["gson_version"]}")
+    implementation("com.google.code.gson:gson:${project["gson_version"]}")
 }
 
 tasks.getByName<DokkaTask>("dokkaHtml") {

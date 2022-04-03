@@ -62,7 +62,7 @@ object HttpRequester {
         val paramaters = HttpParameterSetParser(parameters).asString()
         request.append(paramaters)
         val httpConnection = getConnection(request.toString(), *headers)
-        httpConnection.requestMethod = HttpMethod.GET.asString()
+        httpConnection.requestMethod = GET.asString()
         return HttpRequest(httpConnection)
     }
 
