@@ -10,6 +10,14 @@
       "version": "1.5.10"
     },
     {
+      "ideaName": "Gradle: com.google.code.gson:gson:2.9.0",
+      "gradleName": "com.google.code.gson:gson:2.9.0",
+      "unresolved": false,
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.9.0"
+    },
+    {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
       "gradleName": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
       "unresolved": false,
@@ -40,11 +48,6 @@
       "groupId": "org.jetbrains.kotlin",
       "artifactId": "kotlin-stdlib-common",
       "version": "1.5.10"
-    },
-    {
-      "ideaName": "Gradle: com.google.code:gson:2.9.0",
-      "gradleName": "com.google.code:gson:2.9.0",
-      "unresolved": true
     }
   ]
 }
