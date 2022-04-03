@@ -26,12 +26,12 @@
           "path": "file://$PROJECT_DIR$/src/test",
           "sourceFolders": [
             {
-              "path": "file://$PROJECT_DIR$/src/test/kotlin",
+              "path": "file://$PROJECT_DIR$/src/test/java",
               "type": "TestSource",
               "packagePrefix": ""
             },
             {
-              "path": "file://$PROJECT_DIR$/src/test/java",
+              "path": "file://$PROJECT_DIR$/src/test/kotlin",
               "type": "TestSource",
               "packagePrefix": ""
             }
