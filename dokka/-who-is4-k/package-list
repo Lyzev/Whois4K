@@ -40,11 +40,29 @@ $dokka.location:me.lyzev.whois.http/HttpRequester/createRequest/#me.lyzev.whois.
 $dokka.location:me.lyzev.whois.http/HttpResponse///PointingToDeclaration/-who-is4-k/me.lyzev.whois.http/-http-response/index.html
 $dokka.location:me.lyzev.whois.http/HttpResponse/HttpResponse/#java.io.InputStream/PointingToDeclaration/-who-is4-k/me.lyzev.whois.http/-http-response/-http-response.html
 $dokka.location:me.lyzev.whois.http/HttpResponse/asString/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.http/-http-response/as-string.html
-$dokka.location:me.lyzev.whois.http/HttpResponse/inStream/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.http/-http-response/in-stream.html
+$dokka.location:me.lyzev.whois.response////PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/index.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse.Companion///PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/-companion/index.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse.Companion/from/#com.google.gson.JsonObject/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/-companion/from.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse///PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/index.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/admin/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/admin.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/creationDate/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/creation-date.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/domain/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/domain.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/lastWhoisDatabaseUpdate/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/last-whois-database-update.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/nameservers/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/nameservers.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/rawResponse/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/raw-response.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/referralURL/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/referral-u-r-l.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/registrant/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/registrant.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/registrar/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/registrar.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/registryDomainID/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/registry-domain-i-d.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/tech/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/tech.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/toString/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/to-string.html
+$dokka.location:me.lyzev.whois.response/WhoIsResponse/updatedDate/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois.response/-who-is-response/updated-date.html
 $dokka.location:me.lyzev.whois////PointingToDeclaration/-who-is4-k/me.lyzev.whois/index.html
 $dokka.location:me.lyzev.whois/WhoIs///PointingToDeclaration/-who-is4-k/me.lyzev.whois/-who-is/index.html
 $dokka.location:me.lyzev.whois/WhoIs/WhoIs/#kotlin.String/PointingToDeclaration/-who-is4-k/me.lyzev.whois/-who-is/-who-is.html
 $dokka.location:me.lyzev.whois/WhoIs/doRequest/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois/-who-is/do-request.html
+$dokka.location:me.lyzev.whois/WhoIs/hostname/#/PointingToDeclaration/-who-is4-k/me.lyzev.whois/-who-is/hostname.html
 me.lyzev.whois
 me.lyzev.whois.http
+me.lyzev.whois.response
 
