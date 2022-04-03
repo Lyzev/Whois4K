@@ -11,7 +11,7 @@ import java.io.InputStreamReader
  * @author Lyzev
  * @param inStream the input stream to read the response from
  */
-class HttpResponse(var inStream: InputStream) {
+class HttpResponse(private val inStream: InputStream) {
 
     /**
      * Encodes the input stream to a string.
@@ -19,7 +19,7 @@ class HttpResponse(var inStream: InputStream) {
      * @return the response as a string
      */
     @Throws(IOException::class)
-    fun asString(): String? {
+    fun asString(): String {
         val `in` = BufferedReader(InputStreamReader(inStream, HttpClient.CHARSET))
         val response = StringBuilder()
         var inputLine: String?
