@@ -1,3 +1,48 @@
 {
-  "libraries": []
+  "libraries": [
+    {
+      "ideaName": "Maven: com.google.code.gson:gson:2.9.0",
+      "unresolved": false,
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.9.0",
+      "baseVersion": "2.9.0",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-stdlib",
+      "version": "1.6.20",
+      "baseVersion": "1.6.20",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-stdlib-common",
+      "version": "1.6.20",
+      "baseVersion": "1.6.20",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.jetbrains:annotations:13.0",
+      "unresolved": false,
+      "groupId": "org.jetbrains",
+      "artifactId": "annotations",
+      "version": "13.0",
+      "baseVersion": "13.0",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    }
+  ]
 }

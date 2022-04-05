@@ -1,5 +1,4 @@
 {
-  "gradleJvm": "corretto-16",
   "libraries": [
     {
       "ideaName": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
