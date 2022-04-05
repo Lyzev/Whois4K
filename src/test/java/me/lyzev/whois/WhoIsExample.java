@@ -1,7 +1,4 @@
-package whois;
-
-import me.lyzev.whois.WhoIs;
-import me.lyzev.whois.response.WhoIsResponse;
+package me.lyzev.whois;
 
 public class WhoIsExample {
 

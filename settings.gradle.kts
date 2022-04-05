@@ -1,1 +1,0 @@
-rootProject.name = "WhoIs4K"

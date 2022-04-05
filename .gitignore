@@ -1,9 +1,6 @@
-# gradle
+# maven
 
-.gradle/
-build/
-out/
-classes/
+target/
 
 # eclipse
 
