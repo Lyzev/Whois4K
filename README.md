@@ -1,20 +1,20 @@
-<h1 align="center">WhoIs4K</h1>
+<h1 align="center">Whois4K</h1>
 
 <p align="center">A library for who is requests.</p>
 
 <div align="center">
     <a href="https://discord.gg/5UmsQP4MFH"><img src="https://img.shields.io/discord/610120595765723137?logo=discord" alt="Discord"/></a>
     <br><br>
-    <img src="https://img.shields.io/github/last-commit/Lyzev/WhoIs4K" alt="GitHub last commit"/>
-    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/WhoIs4K" alt="GitHub commit activity"/>
+    <img src="https://img.shields.io/github/last-commit/Lyzev/Whois4K" alt="GitHub last commit"/>
+    <img src="https://img.shields.io/github/commit-activity/w/Lyzev/Whois4K" alt="GitHub commit activity"/>
     <br>
-    <img src="https://img.shields.io/github/languages/code-size/Lyzev/WhoIs4K" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/github/contributors/Lyzev/WhoIs4K" alt="GitHub contributors"/>
+    <img src="https://img.shields.io/github/languages/code-size/Lyzev/Whois4K" alt="GitHub code size in bytes"/>
+    <img src="https://img.shields.io/github/contributors/Lyzev/Whois4K" alt="GitHub contributors"/>
 </div>
 
 ## Usage
 
-[![](https://jitpack.io/v/Lyzev/WhoIs4K.svg?label=Release)](https://jitpack.io/#Lyzev/WhoIs4K)
+[![](https://jitpack.io/v/Lyzev/Whois4K.svg?label=Release)](https://jitpack.io/#Lyzev/Whois4K)
 
 ### Import
 
@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.Lyzev:WhoIs4K:${version}")
+    implementation("com.github.Lyzev:Whois4K:${version}")
 }
 ```
 
@@ -44,7 +44,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Lyzev:WhoIs4K:${version}'
+    implementation 'com.github.Lyzev:Whois4K:${version}'
 }
 ```
 
@@ -64,7 +64,7 @@ dependencies {
 <dependencies>
     <dependency>
         <groupId>com.github.Lyzev</groupId>
-        <artifactId>WhoIs4K</artifactId>
+        <artifactId>Whois4K</artifactId>
         <version>${version}</version>
     </dependency>
 </dependencies>
@@ -75,8 +75,8 @@ dependencies {
 <details>
         <summary>Raw Jar</summary>
 
-1. Go to the [release page](https://github.com/Lyzev/WhoIs4K/releases).
-2. Download WhoIs4K-${version}.jar.
+1. Go to the [release page](https://github.com/Lyzev/Whois4K/releases).
+2. Download Whois4K-${version}.jar.
 3. Add the jar to your classpath.
 
 </details>
@@ -87,8 +87,8 @@ dependencies {
         <summary>Kotlin</summary>
 
 ```kt
-val whoIs = WhoIs("example.com")
-whoIs.doRequest().forEach(::println)
+val whois = Whois("example.com")
+whois.doRequest().forEach(::println)
 ```
 </details>
 
@@ -96,22 +96,22 @@ whoIs.doRequest().forEach(::println)
         <summary>Java</summary>
 
 ```java
-WhoIs whoIs=new WhoIs("example.com");
-        whoIs.doRequest().forEach(System.out::println);
+Whois whois=new Whois("example.com");
+        whois.doRequest().forEach(System.out::println);
 ```
 </details>
 
 ## Documentation
 
-You can find the documentation [here](https://lyzev.github.io/WhoIs4K/dokka).
+You can find the documentation [here](https://lyzev.github.io/Whois4K/dokka).
 
 ## Code Quality Monitoring
 
-You can find the qodana report [here](https://lyzev.github.io/WhoIs4K/qodana).
+You can find the qodana report [here](https://lyzev.github.io/Whois4K/qodana).
 
 ## Bugs and Suggestions
 
-Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/WhoIs4K/issues)
+Bug reports and suggestions should be made in this repo's [issue tracker](https://github.com/Lyzev/Whois4K/issues)
 using the templates provided. Please provide as much information as you can to best help us understand your issue and
 give a better chance of it being resolved.
 
