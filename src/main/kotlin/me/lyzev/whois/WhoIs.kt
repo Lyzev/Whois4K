@@ -1,8 +1,8 @@
 package me.lyzev.whois
 
 import com.google.gson.JsonParser
-import me.lyzev.whois.http.HttpClient
-import me.lyzev.whois.http.HttpMethod
+import me.lyzev.network.http.HttpClient
+import me.lyzev.network.http.HttpMethod
 import me.lyzev.whois.response.WhoIsResponse
 
 /**
@@ -20,7 +20,7 @@ class WhoIs(val hostname: String) {
      */
     fun doRequest(): List<WhoIsResponse> {
         val response = HttpClient.request(HttpMethod.GET, "https://lookup.icann.org/api/whois?q=$hostname")
-        val root = JsonParser.parseString(response.asString()).asJsonObject
+        val root = JsonParser.parseString(response.toString()).asJsonObject
         val whoIs = mutableListOf<WhoIsResponse>()
         root["records"].asJsonArray.forEach { whoIs += WhoIsResponse.from(it.asJsonObject) }
         return whoIs

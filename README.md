@@ -87,7 +87,7 @@ dependencies {
         <summary>Kotlin</summary>
 
 ```kt
-val whoIs = WhoIs("google.com")
+val whoIs = WhoIs("example.com")
 whoIs.doRequest().forEach(::println)
 ```
 </details>
@@ -96,8 +96,8 @@ whoIs.doRequest().forEach(::println)
         <summary>Java</summary>
 
 ```java
-WhoIs whoIs = new WhoIs("google.com");
-whoIs.doRequest().forEach(System.out::println);
+WhoIs whoIs=new WhoIs("example.com");
+        whoIs.doRequest().forEach(System.out::println);
 ```
 </details>
 
