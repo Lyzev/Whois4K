@@ -60,6 +60,24 @@
       "roots": [
         "jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar!/"
       ]
+    },
+    {
+      "name": "Maven: com.github.Lyzev:Network4K:1.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/github/Lyzev/Network4K/1.3/Network4K-1.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar!/"
+      ]
     }
   ]
 }

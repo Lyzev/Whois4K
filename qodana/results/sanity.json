@@ -1,0 +1,129 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: HttpClient",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "src/main/kotlin/me/lyzev/whois/WhoIs.kt",
+      "language": "kotlin",
+      "line": 22,
+      "offset": 23,
+      "length": 10,
+      "code": {
+        "startLine": 20,
+        "length": 10,
+        "offset": 74,
+        "surroundingCode": "     */\n    fun doRequest(): List<WhoIsResponse> {\n        val response = HttpClient.request(HttpMethod.GET, \"https://lookup.icann.org/api/whois?q=$hostname\")\n        val root = JsonParser.parseString(response.toString()).asJsonObject\n        val whoIs = mutableListOf<WhoIsResponse>()"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-5479261378772669645"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: HttpMethod",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "method",
+      "path": "src/main/kotlin/me/lyzev/whois/WhoIs.kt",
+      "language": "kotlin",
+      "line": 22,
+      "offset": 42,
+      "length": 10,
+      "code": {
+        "startLine": 20,
+        "length": 10,
+        "offset": 93,
+        "surroundingCode": "     */\n    fun doRequest(): List<WhoIsResponse> {\n        val response = HttpClient.request(HttpMethod.GET, \"https://lookup.icann.org/api/whois?q=$hostname\")\n        val root = JsonParser.parseString(response.toString()).asJsonObject\n        val whoIs = mutableListOf<WhoIsResponse>()"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "-7202588072240413713"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: network",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/WhoIs.kt",
+      "language": "kotlin",
+      "line": 4,
+      "offset": 16,
+      "length": 7,
+      "code": {
+        "startLine": 2,
+        "length": 7,
+        "offset": 51,
+        "surroundingCode": "\nimport com.google.gson.JsonParser\nimport me.lyzev.network.http.HttpClient\nimport me.lyzev.network.http.HttpMethod\nimport me.lyzev.whois.response.WhoIsResponse"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "3879024506083247177"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Kotlin annotator",
+  "tags": [
+    "kotlin",
+    "Sanity"
+  ],
+  "severity": "Critical",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: network",
+  "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/WhoIs.kt",
+      "language": "kotlin",
+      "line": 5,
+      "offset": 16,
+      "length": 7,
+      "code": {
+        "startLine": 3,
+        "length": 7,
+        "offset": 90,
+        "surroundingCode": "import com.google.gson.JsonParser\nimport me.lyzev.network.http.HttpClient\nimport me.lyzev.network.http.HttpMethod\nimport me.lyzev.whois.response.WhoIsResponse\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KotlinAnnotator"
+  },
+  "hash": "1067548137550672091"
+}]}

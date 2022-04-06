@@ -10,11 +10,11 @@
       "type": "file",
       "path": "pom.xml",
       "language": "XML",
-      "line": 39,
+      "line": 51,
       "offset": 32,
       "length": 7,
       "code": {
-        "startLine": 37,
+        "startLine": 49,
         "length": 7,
         "offset": 104,
         "surroundingCode": "                    <execution>\n                        <id>compile</id>\n                        <phase>compile</phase>\n                        <goals>\n                            <goal>compile</goal>"
@@ -25,7 +25,7 @@
     "module": "WhoIs4K",
     "inspectionName": "KotlinMavenPluginPhase"
   },
-  "hash": "d0250e7e8aaaf3b78bd15acc048ba34d3d4cb0b6267ed9b20c9d346a06c0d66b"
+  "hash": "d2a13bb9eb3566dafd1023a5159462307381be668992355c64b1c0e34fc1b89a"
 },{
   "tool": "Code Inspection",
   "category": "Kotlin",
@@ -38,11 +38,11 @@
       "type": "file",
       "path": "pom.xml",
       "language": "XML",
-      "line": 35,
+      "line": 47,
       "offset": 26,
       "length": 6,
       "code": {
-        "startLine": 33,
+        "startLine": 45,
         "length": 6,
         "offset": 142,
         "surroundingCode": "                <groupId>org.jetbrains.kotlin</groupId>\n                <artifactId>kotlin-maven-plugin</artifactId>\n                <version>1.6.20</version>\n                <executions>\n                    <execution>"
@@ -53,5 +53,5 @@
     "module": "WhoIs4K",
     "inspectionName": "DifferentKotlinMavenVersion"
   },
-  "hash": "389107c3162efd2d2c1388aeadffa8098803dfda717e6608850205acdbad3700"
+  "hash": "1a77667da054eea1edba3eaa03b96b789abe3ed572577d21c15981984110f6e4"
 }]}

@@ -43,6 +43,39 @@
       "type": "jar",
       "optional": false,
       "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: com.github.Lyzev:Network4K:1.3",
+      "unresolved": false,
+      "groupId": "com.github.Lyzev",
+      "artifactId": "Network4K",
+      "version": "1.3",
+      "baseVersion": "1.3",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-stdlib-jdk8",
+      "version": "1.6.20",
+      "baseVersion": "1.6.20",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
+    },
+    {
+      "ideaName": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+      "unresolved": false,
+      "groupId": "org.jetbrains.kotlin",
+      "artifactId": "kotlin-stdlib-jdk7",
+      "version": "1.6.20",
+      "baseVersion": "1.6.20",
+      "type": "jar",
+      "optional": false,
+      "scope": "compile"
     }
   ]
 }
