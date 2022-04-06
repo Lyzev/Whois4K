@@ -1,0 +1,63 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "tags": [
+    "kotlin"
+  ],
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'message'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "class",
+      "path": "src/main/kotlin/me/lyzev/whois/exception/WhoisException.kt",
+      "language": "kotlin",
+      "line": 7,
+      "offset": 10,
+      "length": 7,
+      "code": {
+        "startLine": 5,
+        "length": 7,
+        "offset": 30,
+        "surroundingCode": " *\n * @author Lyzev\n * @param message The error message.\n * @param cause The cause of the error.\n */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "6894761585569842520"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "tags": [
+    "kotlin"
+  ],
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'cause'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "class",
+      "path": "src/main/kotlin/me/lyzev/whois/exception/WhoisException.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 10,
+      "length": 5,
+      "code": {
+        "startLine": 6,
+        "length": 5,
+        "offset": 64,
+        "surroundingCode": " * @author Lyzev\n * @param message The error message.\n * @param cause The cause of the error.\n */\nclass WhoisException : Exception {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "5336730254834281355"
+}]}

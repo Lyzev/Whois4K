@@ -7,21 +7,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: common",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: InternetDomainName",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
-      "type": "file",
+      "type": "field",
       "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
       "language": "kotlin",
-      "line": 3,
-      "offset": 18,
-      "length": 6,
+      "line": 19,
+      "offset": 14,
+      "length": 18,
       "code": {
-        "startLine": 1,
-        "length": 6,
-        "offset": 42,
-        "surroundingCode": "package me.lyzev.whois\n\nimport com.google.common.net.InternetDomainName\nimport com.google.gson.JsonParser\nimport me.lyzev.network.http.HttpClient"
+        "startLine": 17,
+        "length": 18,
+        "offset": 51,
+        "surroundingCode": "class Whois(val hostname: String) {\n\n    val tld = InternetDomainName.from(hostname).run {\n        if (hasPublicSuffix()) publicSuffix().toString()\n        else throw WhoisException(\"$hostname is not a valid domain name\")"
       }
     }
   ],
@@ -29,7 +29,7 @@
     "module": "WhoIs4K.main",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "2542785675954979682"
+  "hash": "-3272277835394195395"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -39,21 +39,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: network",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: hasPublicSuffix",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
-      "type": "file",
+      "type": "field",
       "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
       "language": "kotlin",
-      "line": 5,
-      "offset": 16,
-      "length": 7,
+      "line": 20,
+      "offset": 12,
+      "length": 15,
       "code": {
-        "startLine": 3,
-        "length": 7,
-        "offset": 98,
-        "surroundingCode": "import com.google.common.net.InternetDomainName\nimport com.google.gson.JsonParser\nimport me.lyzev.network.http.HttpClient\nimport me.lyzev.network.http.HttpMethod\nimport me.lyzev.whois.exception.WhoisException"
+        "startLine": 18,
+        "length": 15,
+        "offset": 67,
+        "surroundingCode": "\n    val tld = InternetDomainName.from(hostname).run {\n        if (hasPublicSuffix()) publicSuffix().toString()\n        else throw WhoisException(\"$hostname is not a valid domain name\")\n    }"
       }
     }
   ],
@@ -61,7 +61,7 @@
     "module": "WhoIs4K.main",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "8665914168808672897"
+  "hash": "-1451974924738457815"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -71,21 +71,21 @@
     "Sanity"
   ],
   "severity": "Critical",
-  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: network",
+  "comment": "[UNRESOLVED_REFERENCE] Unresolved reference: publicSuffix",
   "detailsInfo": "Allows viewing the problems reported by the Kotlin annotator: compilation problems, references unresolved by the IDE, and so on.",
   "sources": [
     {
-      "type": "file",
+      "type": "field",
       "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
       "language": "kotlin",
-      "line": 6,
-      "offset": 16,
-      "length": 7,
+      "line": 20,
+      "offset": 31,
+      "length": 12,
       "code": {
-        "startLine": 4,
-        "length": 7,
-        "offset": 90,
-        "surroundingCode": "import com.google.gson.JsonParser\nimport me.lyzev.network.http.HttpClient\nimport me.lyzev.network.http.HttpMethod\nimport me.lyzev.whois.exception.WhoisException\nimport me.lyzev.whois.response.WhoisResponse"
+        "startLine": 18,
+        "length": 12,
+        "offset": 86,
+        "surroundingCode": "\n    val tld = InternetDomainName.from(hostname).run {\n        if (hasPublicSuffix()) publicSuffix().toString()\n        else throw WhoisException(\"$hostname is not a valid domain name\")\n    }"
       }
     }
   ],
@@ -93,7 +93,7 @@
     "module": "WhoIs4K.main",
     "inspectionName": "KotlinAnnotator"
   },
-  "hash": "-3872618330799793904"
+  "hash": "-4324952560976273231"
 },{
   "tool": "Code Inspection",
   "category": "General",

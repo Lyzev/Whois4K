@@ -25,7 +25,7 @@
     "module": "WhoIs4K",
     "inspectionName": "KotlinMavenPluginPhase"
   },
-  "hash": "ab05e4f2f7ebb5ab8559159b2dda3d960278b3269ae9af6f41c1267ef7b764f4"
+  "hash": "0f1737fd520d5efc2ed6714b11588adde3214eb902e338c2e7d1680c5362ba21"
 },{
   "tool": "Code Inspection",
   "category": "Kotlin",
@@ -53,5 +53,5 @@
     "module": "WhoIs4K",
     "inspectionName": "DifferentKotlinMavenVersion"
   },
-  "hash": "90586598ead66cee0232efdbdfe6674690d50bac76ca2d1fef17ab3b08ba3dc5"
+  "hash": "4b50ff2e1f8ee8abe50d190d353ef8e2e9133663243e7eff0a185cd3aa62b91b"
 }]}
