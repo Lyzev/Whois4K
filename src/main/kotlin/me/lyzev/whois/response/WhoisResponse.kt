@@ -6,38 +6,19 @@ import com.google.gson.JsonObject
  * Represents a WHOIS response.
  *
  * @author Lyzev
- * @param name the domain name
- * @param registryDomainID the registry domain ID
- * @param updatedDate the updated date
- * @param creationDate the creation date
- * @param referralURL the referral URL
- * @param registrar the registrar
- * @param registrant the registrant
- * @param admin the admin
- * @param tech the tech
- * @param nameservers the nameservers
- * @param lastWhoisDatabaseUpdate the last WHOIS database update
- * @param rawResponse the raw response
+ * @property name the domain name
+ * @property registryDomainID the registry domain ID
+ * @property domainStatus the domain status
+ * @property nameservers the nameservers
+ * @property registryExpiration the registry expiration date
+ * @property updated the last update date
+ * @property created the creation date
  */
 class WhoisResponse private constructor(val name: String, val registryDomainID: String, val domainStatus: List<String>,
                                         val nameservers: List<String>, val registryExpiration: String,
                                         val updated: String, val created: String) {
 
-    val rawResponse: String = """
-        Name: $name
-        
-        Registry Domain ID: $registryDomainID
-        
-        Domain Status:
-        ${domainStatus.joinToString("\n")}
-                
-        Nameservers:
-        ${nameservers.joinToString("\n")}
-        
-        Registry Expiration Date: $registryExpiration
-        Updated Date: $updated
-        Creation Date: $created
-    """.trimIndent()
+    val rawResponse: String = "=======================================================\nName: $name\n\nRegistry Domain ID: $registryDomainID\n\nDomain Status:\n${domainStatus.joinToString("\n")}\n\nNameservers:\n${nameservers.joinToString("\n")}\n\nRegistry Expiration Date: $registryExpiration\nUpdated Date: $updated\nCreation Date: $created\n======================================================="
 
     /**
      * @return the raw response

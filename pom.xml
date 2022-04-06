@@ -110,7 +110,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <moduleName>WhoIs4K</moduleName>
+                    <moduleName>Whois4K</moduleName>
                     <jdkVersion>16</jdkVersion>
                 </configuration>
             </plugin>
