@@ -6,11 +6,11 @@
   "attributes": {
     "vcs": {
       "sarifIdea": {
-        "repositoryUri": "https://github.com/Lyzev/WhoIs4K",
-        "revisionId": "4bac4a35f75d2b1849316f44d8ac622f9584c163",
+        "repositoryUri": "https://github.com/Lyzev/Whois4K",
+        "revisionId": "243b7896a368d04afc6a00cee59570ff9e734dec",
         "branch": "master"
       }
     },
-    "deviceId": "200820300000000-3e89-02fc-6c97-6bac54d9c617"
+    "deviceId": "200820300000000-0997-2ead-0863-c22af9bc7668"
   }
 }
