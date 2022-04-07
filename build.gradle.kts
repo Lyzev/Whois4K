@@ -11,7 +11,7 @@ plugins {
 operator fun Project.get(property: String): String = property(property) as String
 
 group = "me.lyzev.whois"
-version = "1.3"
+version = "1.4"
 
 repositories {
     mavenCentral()
@@ -37,7 +37,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "me.lyzev.whois"
             artifactId = "Whois4K"
-            version = "1.3"
+            version = "1.4"
 
             from(components["java"])
         }
