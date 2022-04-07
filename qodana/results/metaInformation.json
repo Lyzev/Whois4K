@@ -1,13 +1,13 @@
 {
-  "total": 2,
+  "total": 0,
   "tools inspection": {
-    "Code Inspection": 2
+    "Code Inspection": 0
   },
   "attributes": {
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/Lyzev/Whois4K",
-        "revisionId": "d577999c7cca836b9d2a6d2e9830661773082785",
+        "revisionId": "024274578441464d42043282e1c28dbe80729cfd",
         "branch": "master"
       }
     },

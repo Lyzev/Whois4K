@@ -5,23 +5,7 @@
       "contentEntries": [
         {
           "path": "file://$PROJECT_DIR$",
-          "sourceFolders": [
-            {
-              "path": "file://$PROJECT_DIR$/src/main/kotlin",
-              "type": "Source",
-              "packagePrefix": ""
-            },
-            {
-              "path": "file://$PROJECT_DIR$/src/test/kotlin",
-              "type": "TestSource",
-              "packagePrefix": ""
-            },
-            {
-              "path": "file://$PROJECT_DIR$/src/test/java",
-              "type": "TestSource",
-              "packagePrefix": ""
-            }
-          ]
+          "sourceFolders": []
         }
       ],
       "orderEntries": [
@@ -32,62 +16,6 @@
         {
           "name": "<Module source>",
           "type": "Own sources"
-        },
-        {
-          "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jetbrains:annotations:13.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.code.gson:gson:2.9.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.guava:guava:31.1-jre",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.guava:failureaccess:1.0.1",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.code.findbugs:jsr305:3.0.2",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.checkerframework:checker-qual:3.12.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.errorprone:error_prone_annotations:2.11.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.google.j2objc:j2objc-annotations:1.3",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.github.Lyzev:Network4K:1.3",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
-          "type": "Library"
         }
       ]
     },
@@ -124,7 +52,11 @@
           "type": "Module"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+          "name": "Gradle: com.github.Lyzev:Network4K:1.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
           "type": "Library"
         },
         {
@@ -132,19 +64,47 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
+          "name": "Gradle: com.google.guava:guava:31.1-jre",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.guava:failureaccess:1.0.1",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.code.findbugs:jsr305:3.0.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.checkerframework:checker-qual:3.12.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.errorprone:error_prone_annotations:2.11.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.j2objc:j2objc-annotations:1.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains:annotations:13.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
           "type": "Library"
         }
       ]
@@ -173,7 +133,11 @@
           "type": "Own sources"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10",
+          "name": "Gradle: com.github.Lyzev:Network4K:1.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
           "type": "Library"
         },
         {
@@ -181,19 +145,47 @@
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10",
+          "name": "Gradle: com.google.guava:guava:31.1-jre",
           "type": "Library"
         },
         {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10",
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.guava:failureaccess:1.0.1",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.code.findbugs:jsr305:3.0.2",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.checkerframework:checker-qual:3.12.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.errorprone:error_prone_annotations:2.11.0",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: com.google.j2objc:j2objc-annotations:1.3",
+          "type": "Library"
+        },
+        {
+          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
           "type": "Library"
         },
         {
           "name": "Gradle: org.jetbrains:annotations:13.0",
-          "type": "Library"
-        },
-        {
-          "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10",
           "type": "Library"
         }
       ]
