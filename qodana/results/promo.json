@@ -1,0 +1,85 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Style issues",
+  "type": "Class member can have 'private' visibility",
+  "severity": "Moderate",
+  "comment": "Function 'getService' could be private",
+  "detailsInfo": "Reports declarations that can be made `private` to follow the encapsulation principle.\n\n**Example:**\n\n\n    class Service(val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n\nAfter the quick-fix is applied (considering there are no usages of `url` outside of `Service` class):\n\n\n    class Service(private val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
+      "language": "kotlin",
+      "line": 47,
+      "offset": 9,
+      "length": 10,
+      "code": {
+        "startLine": 45,
+        "length": 10,
+        "offset": 53,
+        "surroundingCode": "     * @return The list of services.\n     */\n    fun getService(): List<String> {\n        val services = mutableListOf<String>()\n        val response = HttpClient.request(HttpMethod.GET, \"https://data.iana.org/rdap/dns.json\")"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "MemberVisibilityCanBePrivate"
+  },
+  "hash": "a11d03f80125c1de82a522209fec4724c8391e66bef4bde3f51da88810f89fa9"
+},{
+  "tool": "Code Inspection",
+  "category": "Style issues",
+  "type": "Class member can have 'private' visibility",
+  "severity": "Moderate",
+  "comment": "Property 'tld' could be private",
+  "detailsInfo": "Reports declarations that can be made `private` to follow the encapsulation principle.\n\n**Example:**\n\n\n    class Service(val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n\nAfter the quick-fix is applied (considering there are no usages of `url` outside of `Service` class):\n\n\n    class Service(private val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
+      "language": "kotlin",
+      "line": 19,
+      "offset": 9,
+      "length": 3,
+      "code": {
+        "startLine": 17,
+        "length": 3,
+        "offset": 45,
+        "surroundingCode": "class Whois(val hostname: String) {\n\n    val tld = InternetDomainName.from(hostname).run {\n        if (hasPublicSuffix()) publicSuffix().toString()\n        else throw WhoisException(\"$hostname is not a valid domain name\")"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "MemberVisibilityCanBePrivate"
+  },
+  "hash": "ad77a29befbcee182e2730d489b4e9af44c9abd4ab431f1ee4d9e7bbe36e2511"
+},{
+  "tool": "Code Inspection",
+  "category": "Style issues",
+  "type": "Class member can have 'private' visibility",
+  "severity": "Moderate",
+  "comment": "Property 'hostname' could be private",
+  "detailsInfo": "Reports declarations that can be made `private` to follow the encapsulation principle.\n\n**Example:**\n\n\n    class Service(val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n\nAfter the quick-fix is applied (considering there are no usages of `url` outside of `Service` class):\n\n\n    class Service(private val url: String) {\n        fun connect(): URLConnection = URL(url).openConnection()\n    }\n",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/Whois.kt",
+      "language": "kotlin",
+      "line": 17,
+      "offset": 17,
+      "length": 8,
+      "code": {
+        "startLine": 15,
+        "length": 8,
+        "offset": 65,
+        "surroundingCode": " * @property hostname The hostname to query.\n */\nclass Whois(val hostname: String) {\n\n    val tld = InternetDomainName.from(hostname).run {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "MemberVisibilityCanBePrivate"
+  },
+  "hash": "da648dbfb52ec23b176b9600d7d4f59329e66f1d1a3edf0b16e74e5898f03d89"
+}]}

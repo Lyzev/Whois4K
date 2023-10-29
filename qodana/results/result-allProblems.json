@@ -1,1 +1,94 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "tags": [
+    "kotlin"
+  ],
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'message'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/exception/WhoisException.kt",
+      "language": "kotlin",
+      "line": 7,
+      "offset": 11,
+      "length": 7,
+      "code": {
+        "startLine": 5,
+        "length": 7,
+        "offset": 30,
+        "surroundingCode": " *\n * @author Lyzev\n * @param message The error message.\n * @param cause The cause of the error.\n */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "55f477a3f94cd3cb72190da743c886cc72f4458cff4feb1e84a55c5d2fbd0b28"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "tags": [
+    "kotlin"
+  ],
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'cause'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/exception/WhoisException.kt",
+      "language": "kotlin",
+      "line": 8,
+      "offset": 11,
+      "length": 5,
+      "code": {
+        "startLine": 6,
+        "length": 5,
+        "offset": 64,
+        "surroundingCode": " * @author Lyzev\n * @param message The error message.\n * @param cause The cause of the error.\n */\nclass WhoisException : Exception {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "69ddf2355dcf8c50e9cfffaac56c810369a9f7d05fd6fcf7d770edaa632c0f9a"
+},{
+  "tool": "Code Inspection",
+  "category": "Probable bugs",
+  "type": "Unresolved reference in KDoc",
+  "tags": [
+    "kotlin"
+  ],
+  "severity": "High",
+  "comment": "Cannot resolve symbol 'jsonObject'",
+  "detailsInfo": "Reports unresolved references in KDoc comments.\n\n**Example:**\n\n\n      /**\n       * [unresolvedLink]\n       */\n      fun foo() {}\n\nTo fix the problem make the link valid.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "src/main/kotlin/me/lyzev/whois/response/WhoisResponse.kt",
+      "language": "kotlin",
+      "line": 33,
+      "offset": 19,
+      "length": 10,
+      "code": {
+        "startLine": 31,
+        "length": 10,
+        "offset": 111,
+        "surroundingCode": "         * Creates a new instance of [WhoisResponse] from the given [JsonObject].\n         *\n         * @param jsonObject the JSON object\n         * @return the new instance\n         */"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "WhoIs4K.main",
+    "inspectionName": "KDocUnresolvedReference"
+  },
+  "hash": "d268efa0afc5f95f54a788f3016e24c931489b87648567eb22eee45df90363ca"
+}]}

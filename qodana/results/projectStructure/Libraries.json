@@ -4,73 +4,85 @@
       "name": "Gradle: com.github.Lyzev:Network4K:1.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.github.Lyzev/Network4K/1.3/4f8c05176a7f3477cc066aaadd31400d0c0fd921/Network4K-1.3.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.20/dab8089bca6ac0e394c37281ea8cff2f99acd421/kotlin-stdlib-jdk8-1.6.20.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.code.gson:gson:2.9.0",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.9.0/8a1167e089096758b49f9b34066ef98b2f4b37aa/gson-2.9.0.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.guava:guava:31.1-jre",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-jre/60458f877d055d0c9114d9e1a2efb737b4bc282c/guava-31.1-jre.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.20",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.20/f8629f336bad4001c89e9cffa5ef3d4b5d0f5e22/kotlin-stdlib-jdk7-1.6.20.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.20",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.20/6cedc143badbb4f1c6b7f5a340b04edff1743208/kotlin-stdlib-1.6.20.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.guava:failureaccess:1.0.1",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.code.findbugs:jsr305:3.0.2",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.checkerframework:checker-qual:3.12.0",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.errorprone:error_prone_annotations:2.11.0",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: com.google.j2objc:j2objc-annotations:1.3",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/"
-      ]
+      ],
+      "properties": {}
     },
     {
       "name": "Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.20",
@@ -83,7 +95,8 @@
       "name": "Gradle: org.jetbrains:annotations:13.0",
       "roots": [
         "jar://$PROJECT_DIR$/../cache/gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/"
-      ]
+      ],
+      "properties": {}
     }
   ]
 }
