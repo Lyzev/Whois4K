@@ -97,7 +97,7 @@ whois.doRequest().forEach(::println)
 
 ```java
 Whois whois=new Whois("example.com");
-        whois.doRequest().forEach(System.out::println);
+whois.doRequest().forEach(System.out::println);
 ```
 </details>
 
